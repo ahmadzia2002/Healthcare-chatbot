@@ -6,29 +6,29 @@ Run Locally
 
 Clone the project
 
-  git clone https://github.com/robinsingh051/Healthcare-chatbot
+    git clone https://github.com/robinsingh051/Healthcare-chatbot
 
 Go to the project directory
 
-  cd Healthcare-chatbot
+    cd Healthcare-chatbot
 
 Install dependencies
 
-  pip install rasa
-  pip install flask
-  pip install requests
+    pip install rasa
+    pip install flask
+    pip install requests
 
 Go to rasabot directory
 
-  cd rasabot
+    cd rasabot
 
 open terminal in this directory and run the following command to start rasa server
 
-  rasa run -m models --endpoints endpoints.yml --port 5002 --credentials credentials.yml
+    rasa run -m models --endpoints endpoints.yml --port 5002 --credentials credentials.yml
 
 Go to web_app directory
 
-  cd web_app
+    cd web_app
 
 open terminal in this directory and run the following command to start flask server
 
